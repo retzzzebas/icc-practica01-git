@@ -23,3 +23,14 @@ A Developer hara los cambios principales
 B Developer hara pequeñas modificaciones y revisara los cambios de A Developer
 El push: sera solo cuando los cambios esten verificados
 El pull: sera cuando el Depelover A le de luz verde para tener el mismo contenido que el Developer B
+## Historial esperado 
+A---B---C <- main // Cada lìnea apunta al commit mas reciente, la rama principal se llama main
+
+A---B---C <- main
+\
+D <- binario // Se crea una nueva historia. ¿Se tratara de un commit nuevo? No se lol
+
+A---B---C <- main
+\
+D---E <- binario // La linea continua
+
