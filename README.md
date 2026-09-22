@@ -51,3 +51,11 @@ Un merge no decide que una rama tenga “mayor prioridad” que otra. Intenta in
 R: Pues al parecer es verdad, un merge sirve para integrar el trabajo de ambos para no trabajar sobre la misma linea al mismo tiempo y evitar conflictos de contenido
 o push rechazados. No existe la prioridad.
 
+1. ¿Que representa HEAD en este momento?
+R: HEAD representa la version de main de B que intento hacer el merge en main, pero hubo con conflicto
+2. ¿Que representa el contenido entre «««< y =======?
+R: El mensaje original de Developer A
+3. ¿Que representa el contenido entre ======= y »»»>?
+R: El contenido modificado por Developer B
+4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
+R: Porque trabajamos sobre un solo archivo y no sabe diferenciar entre que modificacion es correcta o incorrecta.
