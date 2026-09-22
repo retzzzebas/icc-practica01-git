@@ -34,3 +34,11 @@ A---B---C <- main
 \
 D---E <- binario // La linea continua
 
+1. ¿Por qué Git rechazo el primer push de Developer B?
+R: Porque el repositorio remoto contiene ahora un commit que no existe en la copia local de Developer B
+2. ¿Existía un conflicto de contenido?
+R: A lo mejor y si porque editamos la misma linea al mismo tiempo y ambos archivos pertenecian a la misma linea
+3. ¿Qué ocurrió cuando ejecutaron pull?
+R: Todos los cambios se sincronizaron en ambos Developers
+4. ¿Qué diferencia observan entre un push rechazado y un conflicto?
+R: El push rechazado pertenece al fallo de hacer cambios al servidor remoto, el conflicto de contenido pertenece a un conflicto en el equipo local
