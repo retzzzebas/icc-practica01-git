@@ -42,3 +42,12 @@ R: A lo mejor y si porque editamos la misma linea al mismo tiempo y ambos archiv
 R: Todos los cambios se sincronizaron en ambos Developers
 4. ¿Qué diferencia observan entre un push rechazado y un conflicto?
 R: El push rechazado pertenece al fallo de hacer cambios al servidor remoto, el conflicto de contenido pertenece a un conflicto en el equipo local
+
+¿Realizar un merge implica necesariamente que exista un conflicto?
+R: No porque ya hicimos nuestros propios commit pero en ramas distinitas anteriormente, aparte despues de regresar a la rama main ya actualizamos nuestras copias
+e integramos nuestras propias ramas con los cambios ya hechos (al menos podriamos explicarlo asi).
+
+Un merge no decide que una rama tenga “mayor prioridad” que otra. Intenta integrar ambas historias.
+R: Pues al parecer es verdad, un merge sirve para integrar el trabajo de ambos para no trabajar sobre la misma linea al mismo tiempo y evitar conflictos de contenido
+o push rechazados. No existe la prioridad.
+
