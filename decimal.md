@@ -4,4 +4,5 @@ El sistema decimal utiliza base 10.
 El nùmero 42 en decimal se escribe como:
 42
 Prueba para el paso 11
-
+## Descripcion
+El sistema decimal utiliza diez simbolos diferentes.
