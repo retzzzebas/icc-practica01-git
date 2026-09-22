@@ -59,3 +59,16 @@ R: El mensaje original de Developer A
 R: El contenido modificado por Developer B
 4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
 R: Porque trabajamos sobre un solo archivo y no sabe diferenciar entre que modificacion es correcta o incorrecta.
+
+## Historial real
+1. ¿En que se parece al dibujo inicial?
+R: En absolutamente nada, ya que no sabiamos de que iba a tratar nuestro nuestro historial en realidad, hasta que hicimos git log y nos dimos cuenta que hicimos un 
+monton de commit. Bueno, con la excepcion de que existe la rama principal "main" 
+y al estar cambiando y creando nuevas ramas, tenian los mismos nombres empleados de "binario" o "decimal" 
+2. ¿En que es diferente?
+R: En que solo es el dibujo de ejemplo, aqui ya nos dimos cuenta de que va realmente git log, y vimos que hicimos muchas cosas. 
+3. ¿Que partes del historial no habían anticipado?
+R: No habiamos anticipado que seria tan largo
+4. ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
+R: Entendimos que al hacer varios commits en git, y hacer trabajos remotos, se trata de una gran serie de procesos que estan documentados en el historial y que
+no muestran simplemente letritas, hasta los mensajes que dejamos en los commits dejan claro lo que hicimos
