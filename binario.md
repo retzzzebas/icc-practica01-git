@@ -4,3 +4,6 @@ El sistema binario utiliza base 2.
 El numero 42 en binario se escribe como:
 101010
 PRUEBA PASO 11
+# Descripcion
+EL SISTEMA BINARIO USA 1 Y 0
+
