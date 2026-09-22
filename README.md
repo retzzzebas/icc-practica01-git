@@ -72,3 +72,42 @@ R: No habiamos anticipado que seria tan largo
 4. ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
 R: Entendimos que al hacer varios commits en git, y hacer trabajos remotos, se trata de una gran serie de procesos que estan documentados en el historial y que
 no muestran simplemente letritas, hasta los mensajes que dejamos en los commits dejan claro lo que hicimos
+
+¿Que ventaja tiene utilizar el nombre v1.0 para identificar este punto del historial en lugar de utilizar solamente el hash del commit?
+R: Discutimos que fue para indicar una version final del repositorio
+
+## Reflexion final
+1. ¿Que información almacena un commit?
+R: Guardar una snapshot en el staging area, como si fuera un checkpoint
+2. ¿Que diferencia existe entre un repositorio local y un repositorio remoto?
+R: El local se almacena en tu equipo, el remoto se almacena en la nube
+3. ¿Que ocurrió cuando modificaron archivos diferentes?
+R: Tras modificarlos en diferentes lineas de desarrollo e integrar esas mismas lineas con los archivos modificados, pudimos integrar los cambios sin conflictos y sin
+pedirnos decidir contenido manualmente
+4. ¿Que ocurrió cuando modificaron la misma región de un archivo?
+R: Aparecio un conflicto de contenido
+5. ¿Que diferencia existe entre commit y push?
+R: El commit funciona como un checkpoint para el repositorio local, el push sirve para actualizar el repositorio remoto
+6. ¿Que función tuvo pull durante la practica?
+R: Es basicamente que el otro Developer pueda tener esos mismos cambios que ya se hicieron en el el push
+7. ¿Por que un push puede ser rechazado aunque no exista un conflicto de contenido?
+R: Porque el repositorio remoto puede contener un commit que no existe en una copia local.
+8. ¿Que representa una rama?
+R: Representa una linea de desarrollo, como un nombre que apunta a un punto del historial.
+9. ¿Que indica HEAD?
+R: Indica la rama sobre la que están trabajando actualmente.
+10. ¿Que hace merge?
+R: Integra los cambios de una rama con otra. Intenta integrar dos historias.
+11. ¿Por que Git pudo integrar algunos cambios automáticamente y otros no?
+R: Porque los cambios integrados automaticamente venian de diferentes lineas de desarrollo, los que no cumplieron con esto, se debio a que modificamos la misma region
+de un mismo archivo
+12. ¿Que representan los marcadores «««<, ======= y »»»>?
+R: <<<<< Representa la version inicial, ======= separa las versiones, »»»»»» representa la version modificada.
+13. ¿Que ventaja proporciona un tag?
+R: Permite consultar versiones finales determinadas e identificarlas como puntos especificos del historial
+14. ¿Como cambio su interpretación de los diagramas de historial después de utilizar git log–graph –oneline –all?
+R: Bastante, nos dieron una mejor vision de todo el trabajo que hicimos y todo lo que documentamos.
+
+¿Por que ambos historiales (merge y rebase)  pueden representar cambios semejantes y, sin embargo, tener una estructura diferente?
+R: El merge conserva el historial original intacto y muestra como se unieron las ramas sin alterar los commits existentes, pero un rebase reescribe el historial
+por completo a uno lineal, y puede destruir las ramas publicas o compartidas de tus compañeros
