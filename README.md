@@ -18,3 +18,8 @@ git commit
 git push
 git pull
 git status
+## planeacion 
+A Developer hara los cambios principales 
+B Developer hara pequeñas modificaciones y revisara los cambios de A Developer
+El push: sera solo cuando los cambios esten verificados
+El pull: sera cuando el Depelover A le de luz verde para tener el mismo contenido que el Developer B
